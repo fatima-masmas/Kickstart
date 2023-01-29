@@ -21,9 +21,18 @@
     border-right: 1px solid #999;
 }
 .button{
-    border: .5px solid #999;
+    border: 0.5px solid #999;
     line-height: 100px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+}
+#equal{
+    background-color: #5555ff;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: #3a3d34;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
 }
