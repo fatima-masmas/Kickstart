@@ -1,0 +1,223 @@
+/* Germany Flag*/
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    background: rgb(148, 157, 204);
+    background: radial-gradient(circle,rgb(115, 109, 204) 0%, rgba(192, 117, 183, 0.863) 100%);
+    
+}
+
+* {
+    margin: 20px; /*leer zeichen*/
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+@media screen and (max-width: 600px) {
+    
+    
+}
+
+  
+.warpper {
+    background: #dbc4c4;
+    position: absolute;
+    margin: 60px;
+    right: 15px;
+    border-left-style: solid;
+    border-right-style: solid;
+
+}
+.warpper__black {
+    background-color: rgb(19, 17, 17);
+    height: 11vh;
+    width: 40vh;
+}
+.warpper__read {
+    background-color: rgb(226, 16, 16);
+    height: 11vh;
+    width: 40vh;
+
+}
+.warpper__yellow {
+    background-color: rgb(212, 165, 34);
+    height: 11vh;
+    width: 40vh;
+
+}
+table {
+    height: 456px;
+    width: 800px; 
+    border-spacing: 0;
+}
+table td {
+    border:solid 0px;
+    border-collapse: collapse;
+    padding: 0%;
+}
+tr:nth-child(odd) {
+    background: #bf0b30;
+}
+tr:nth-child(even) {
+    background: #ffffff;
+}
+.stars {
+    background-color: #002768;
+    width: 288px;
+    height: 245px;
+    margin-top: -476px;
+}
+p {
+    text-align: center;
+    color:#fffeff;
+    font-size: 33px;
+    line-height: 7px;
+    letter-spacing: 15px;
+}
+
+table.containar2 {
+    height: 456px;
+    width: 800px; 
+    margin-top: 300px;
+    margin-right: 150px;
+    margin-left: 1px;
+    right: 300px;
+}
+table td {
+    border:solid 0px;
+    border-collapse: collapse;
+}
+tr.containar2:nth-child(odd) {
+    background: #3533ca;
+}
+tr:nth-child(even) {
+    background: #ffffff;
+}
+.quadrat {
+    background-color: #3533ca;
+    margin-left: 1px;
+    width: 300px;
+    height: 242px;
+    margin-top: -464px;
+    text-align: center;
+    position: relative;
+}
+.quadrat__width {
+    background-color: #ffffff;
+    width: 300px;
+    height: 47px;
+    position: absolute;
+    top: 56.5%;
+    transform: scaleY(-10.4deg);
+    left: 61px;
+}
+.quadrat__length {
+    background-color: #ffffff;
+    width: 47px;
+    height: 252px;
+    position: absolute;
+    top: -4.5%;
+    transform: scaleY(-10.4deg);
+    left: 105px;
+    
+}
+@media screen and (max-width: 600px) {
+    .quadrat__width  {
+      float: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .quadrat__length  {
+      float: none;
+    }
+  }
+.div1 {
+    background-color:#ffa500;
+    position: absolute;
+    width: 1000px;
+    height: 470px;
+    margin-top: -260px;
+    right: 15px;  
+}
+#green{
+    background-color: green;
+    width: 120px;
+    height: 400px;
+    margin: 35px;
+    margin-top: 35px;
+    margin-block-start : unset(120px);
+}
+#orange{
+    background-color: #ff8c00;
+    width: 120px;
+    height: 400px;
+    margin: 155px;
+    margin-bottom: 100px;
+    margin-block-start:-435px;
+}
+#red{
+    background-color: #A52A2A;
+    width: 620px;
+    height: 400px;
+    right: 0;
+    margin: 330px;
+    padding: 0;
+    margin-block-start: -500px;
+}
+i {
+    font-size:48px;
+    color:#ffa500;
+    top: -20px;
+}
+
+.train {
+    background-color: rgb(172, 164, 164);
+    position: absolute;
+    margin: 200px;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left: 400px;
+    right: 300px;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.blau {
+    background-color: rgb(59, 59, 199);
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    width: 40vh;
+    border-right: 80vh solid transparent;
+
+}
+.read {
+    background-color: rgb(226, 16, 16);
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    width: 40vh;
+
+}
+.green {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    width: 40vh;
+
+}
+.sun {
+    background-color: yellow;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 50%;
+}
+
+
+

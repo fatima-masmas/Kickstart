@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(168, 168, 141);
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+}
+.puzzle {
+    height: 90px;
+    width: 978px;
+    padding: 40px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.puzzle > div {
+    width: calc(30.33% - 20px);
+    padding: 5px;
+    position:relative ;
+  }
+table {
+    height: 10px;
+    width: 10px;
+    padding: 1px;
+    background-color: rgb(135, 120, 96);
+    outline: 6px solid rgb(148, 140, 140);
+}
+tr td {
+    height: 5px;
+    width: 5x;
+    padding: 50px;
+    background-color: rgb(233, 219, 200);
+    opacity: .5;
+    
+}
