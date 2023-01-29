@@ -1,7 +1,7 @@
 .container{
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgb(153, 153, 153, 1);
+    box-shadow: 0px 0px 43px 17px rgb(190, 145, 207);
 }
 #display{
     text-align: right;
@@ -12,27 +12,27 @@
 }
 .buttons{
     display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #999;
+    border-bottom: 1px solid rgb(196, 189, 189);
+    border-left: 1px solid rgb(130, 86, 151);
     grid-template-columns:  1fr 1fr 1fr 1fr;
 }
 .buttons > div{
-    border-top: 1px solid #999;
-    border-right: 1px solid #999;
+    border-top: 1px solid rgb(204, 62, 204);
+    border-right: 1px solid rgb(184, 113, 175);
 }
 .button{
-    border: 0.5px solid #999;
+    border: 0.5px solid rgb(176, 92, 184);
     line-height: 100px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
 }
 #equal{
-    background-color: #5555ff;
+    background-color: #7754a5;
     color: whitesmoke;
 }
-button:hover{
-    background-color: #3a3d34;
+.button:hover{
+    background-color: #d32e94;
     color: whitesmoke;
     transition: 0.5s ease-in-out;
 }
