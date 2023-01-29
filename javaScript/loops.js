@@ -1,4 +1,4 @@
-// JavaScript – Loops (hard) Homework -----------------------------
+// JavaScript – Loops (hard) Homework ----------- (https://en.wikipedia.org/wiki/Look-and-say_sequence)
 
 /*
 1. Create a program that generates the first n prime numbers. 
