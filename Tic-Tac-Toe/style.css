@@ -2,17 +2,18 @@
     width: 252px;
     text-align: center;
     font-family: system-ui;
-    color: rgb(212, 195, 118);
+    color:antiquewhite;
     margin: auto;
     font-weight: 500;
 }
 .title{
-    background: rgb(207, 70, 102);
+    background: #cf4465;
     padding: 5px 0;
     margin: 5px 0;
 }
 span{
     color: rgb(196, 164, 100);
+    font-weight: 500px;
 }
 .square{
     width: 80px;
@@ -23,5 +24,5 @@ span{
     font-size: 50px;
 }
 .square:hover{
-    background: rgb(167, 84, 84);
+    background: rgb(221, 193, 193);
 }
